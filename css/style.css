@@ -1,0 +1,125 @@
+
+/*header start*/
+.header-flex{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding-top: 30px;
+	padding-right: 100px;
+}
+.logo{
+	margin-right: 530px;
+	padding-top: 25px;
+	padding-left: 95px;
+	margin-bottom: 25px;
+}
+.flex-item-header{
+	justify-content: right;
+	margin-right: 54px;
+	font-family: 'Raleway', sans-serif;
+}
+.flex-1{
+    display: flex;
+}
+
+
+/*header end*/
+
+/*section 1 start*/
+.section-1{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.bg-image{
+	background-image: url("../images/bg-image.jpg");
+	height: 650px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 74px;
+}
+.bg-image > h1{
+	font-size: 78px;
+	color: #FFFFFF;
+	margin-bottom: 35px;
+}
+.bg-image > h2{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.section-2{
+    max-width: 1360px;
+	width: 100%;
+	display: flex;
+	margin: 0 auto 93px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left-block{
+	display: flex;
+	flex-direction: column;
+	width: 240px;
+	margin-right: 60px;
+}
+.left-block > h2{
+	font-size: 18px;
+	color: #8D8D8D;
+	margin-bottom: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+.left-block > h1{
+	font-size: 26px;
+	margin-bottom: 35px;
+	font-family: 'Raleway', sans-serif;
+}
+.left-block > p{
+	font-size: 16px;
+	color: #8D8D8D;
+	width: 240px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+
+}
+.line-1{
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+.right-block{
+    width: 99%;
+	max-width: 880px;
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+}
+.line-2{
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+	width: 33.33%;
+	height: 325px;
+}
+.card > img{
+	margin-bottom: 30px;
+}
+.card > h1{
+	font-size: 18px;
+	margin-bottom: 8px;
+	font-family: 'Raleway', sans-serif;
+}
+.card > p{
+	font-size: 16px;
+	color: #8D8D8D;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+}

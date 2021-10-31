@@ -1,0 +1,132 @@
+@media screen and (max-width:1180px){
+    .left-block{
+        margin: 0 auto;
+    }
+    .logo{
+        margin-right: 400px;
+    }
+}
+@media screen and (max-width:1120px){
+    .left-block{
+        margin: 0 auto 20px;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width:1094px){
+    .logo{
+        margin-right: 250px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .logo{
+        margin-right: 150px;
+        padding-left: 40px;
+    }
+    .header-flex{
+        justify-content: normal;
+    }
+    .flex-item-header{
+        margin-right: 15px;
+    }
+    .bg-image{
+        height: 450px;
+    }
+    .left-block{
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .right-block{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .flex-item-header{
+        font-size: 15px;
+    }
+    .logo{
+        width: 75%;
+    }
+    .bg-image{
+        height: 425px;
+    }
+    .left-block{
+        margin: 0 auto 20px; 
+    }
+    .line-1{
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .line-2{
+        justify-content: space-around;
+    }
+    .card{
+        width: 40%;
+        height: 250px;
+        margin-bottom: 70px;
+    }
+    .card p{
+        width: 269px;
+    }
+
+}
+@media screen and (max-width: 618px){
+    .logo{
+        margin-right: 100px;
+    }
+    .card{
+        width: 100%;
+        text-align: center;
+    }
+    .card p{
+        width: 100%;
+    }
+    .line-1{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 568px){
+    .logo{
+        margin-right: 20px;
+    }
+    .bg-image{
+        height: 400px;
+    }
+    .header-flex{
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width: 523px){
+    .bg-image h1{
+        font-size: 40px;
+    }
+    .bg-image h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 479px){
+    .logo{
+        padding-left: 5px;
+        margin-right: 10px;
+        padding-top: 5px;
+    }
+    .logo-img{
+        width: 80px;
+    }
+    .flex-item-header{
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 450px){
+    .logo{
+        width: 50%;
+        margin-right: 5px;
+    }
+    .flex-item-header{
+        font-size: 10px;
+    }
+}
